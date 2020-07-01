@@ -4,8 +4,8 @@ import Board from './components/Board';
 
 function App() {
   return (
-    <div className="App">
-      <div className="game-board"><Board/></div>
+    <div className="App" >
+      <div className="window"><Board/></div>
       
     </div>
   );

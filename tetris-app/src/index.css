@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  height: 100%;
 }
 
 code {
@@ -33,6 +35,24 @@ code {
 }
 
 .game-board{
+  position: left;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  
+  border: 0.1px solid rgb(238, 241, 243);
+
+}
+
+.window{
   position: center;
-  margin-top: 30px;
+}
+
+
+
+div{
+  height: 100%;
+  overflow: hidden;
+  outline-width: 0;
 }
