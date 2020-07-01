@@ -18,19 +18,6 @@ function Board(props) {
         [0,0,0,0,0,0,0,0],
     ];
 
-    let board=[]
-    function drawWorld() {
-        world.map((v, i)=>{
-            for(var x=0; x<v.length; x++) {
-                if(world[i][x]=== 0){
-                    board.push(<div className='empty'></div>)
-                }
-            }
-        });
-    }
-    
-    drawWorld();
-
     return (
         <div id="world">
             { world.map((v, i)=>{
